@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+	background-image: url(images/index_background.jpg);
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main, footer {
+    width: 700px;
+    margin-left: auto;
+	margin-right: auto;
+}
+.sec01 {
+	background-color: #eea;
+	border: solid 2px;
+	border-radius: 15px;
+	overflow: hidden;
+	padding: auto;
+	margin: auto;
+	width: 90%;
+}
+.cen01 h1, .cen01 p {
+	text-align: center;
+}
+div{
+	margin-bottom: 50px;
+}
+h2, h3, h4 {
+	text-align: center;
+}
+button {
+	display: block;
+    margin: 10px auto 10px;
+}
+.undernone {
+	text-decoration: none;
+}
+span {
+	color: #fff;
+	background: #f32;
+	display: inline-block;
+	padding: 2px 5px;
+	font-size: xx-small;
+	border-radius: 3px;
+}
+input {
+	line-height: 2.1;
+	width: 350px;
+	border-radius: 2px;
+}
+label {
+	width: 160px;
+    text-align: right;
+	float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#nameleft input {
+	width: 180px;
+}
+textarea {
+	width: 350px;
+}
+#backbutton {
+	width: 100px;
+	float: right;
+	border-radius: 3px;
+}
+
+input + div, select + div, textarea + div {
+	float: right;
+	width: 420px;
+	color: #f22;
+	margin-bottom: -10px;
+}
+.error-form {
+	border-color: #f99;
+}
